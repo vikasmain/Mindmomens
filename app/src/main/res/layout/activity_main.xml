@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:weightSum="10" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:background="@drawable/mindmoments" android:layout_weight="9">
+
+    <ImageView android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="25dp" android:id="@+id/cameraimage"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/create_contact" android:id="@+id/tag" style="?android:attr/buttonStyleSmall"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/ic_menu_camera" android:id="@+id/camera" android:layout_centerInParent="true"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/ic_menu_share" android:id="@+id/share" style="?android:attr/buttonStyleSmall" android:layout_alignParentRight="true" android:enabled="false"/>
+
+</RelativeLayout>
+
+</LinearLayout>
